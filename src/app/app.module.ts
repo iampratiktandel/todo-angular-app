@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { TodosComponent } from './components/todos/todos.component';
 import { TodoFormComponent } from './components/todo-form/todo-form.component';
 import { HeaderComponent } from './layout/header/header.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { HeaderComponent } from './layout/header/header.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

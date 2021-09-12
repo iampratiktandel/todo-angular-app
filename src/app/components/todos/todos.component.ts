@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
-import { Observable } from 'rxjs';
 import { Todo } from 'src/app/model/Todo';
 import { TodoService } from 'src/app/service/todo.service';
 
